@@ -1,8 +1,8 @@
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
 .main_header {
-    background: linear-gradient(45deg, #03a9f4, #41f492, #ffeb3b, #a200ff);
+  background: linear-gradient(45deg, #03a9f4, #41f492, #ffeb3b, #a200ff);
   height: 50px;
 }
 .main_header_nav {
@@ -15,7 +15,6 @@ body{
 a {
   text-decoration: none;
   color: aliceblue;
-  
 }
 #cp {
   display: inline-block;
@@ -34,7 +33,7 @@ a {
 .convert_button {
   margin-top: 48px;
   margin-left: 32px;
-  text-decoration: none;    
+  text-decoration: none;
   border: none;
   font-size: 14px;
   font-family: inherit;
@@ -62,7 +61,7 @@ a {
   }
 }
 .convert_button:before {
-  content: "";  
+  content: "";
   top: -5px;
   left: -5px;
   right: -5px;
@@ -81,35 +80,37 @@ a {
 .convert_button:active {
   background: linear-gradient(45deg, #03a9f4, #f441a5, #ffeb3b, #41f492);
 }
-.task_input{
-    border: 2px solid;
-    border-bottom-color:  #f441a5;
-    border-top-color:  #03a9f4;
-    border-right-color:  #ffeb3b;
-    border-left-color:  #41f492;    
-    border-radius: 10px;
-    padding: 10px 25px;
-    margin: 16px 0px 16px 0px;
-    background: transparent;  
-    color: #fff;
-    
+.task_input {
+  border: 2px solid;
+  border-bottom-color: #f441a5;
+  border-top-color: #03a9f4;
+  border-right-color: #ffeb3b;
+  border-left-color: #41f492;
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin: 16px 0px 16px 0px;
+  background: transparent;
+  color: #fff;
 }
-::placeholder{
-    color: #fff;
-    text-align: center;
+::placeholder {
+  color: #fff;
+  text-align: center;
 }
-.color-area{     
-    margin-top: 48px;     
-    text-align: center;          
-    border: 2px solid;
-    border-top-color:  #f441a5;
-    border-bottom-color:  #03a9f4;
-    border-left-color:  #ffeb3b;
-    border-right-color:  #41f492;
-    position: relative;   
-    border-radius: 20px;
-    
-    
-    
-    
+.color-area {
+  margin-top: 48px;
+  text-align: center;
+  border: 2px solid;
+  border-top-color: #f441a5;
+  border-bottom-color: #03a9f4;
+  border-left-color: #ffeb3b;
+  border-right-color: #41f492;
+  position: relative;
+  border-radius: 20px;
+}
+.result {
+  height: 50px;
+  margin-top: 24px;
+  padding-top: 10px;
+  font-family: "Fuzzy Bubbles", cursi;
+  font-size: medium;
 }
